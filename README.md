@@ -5,7 +5,7 @@
 By using standard Ethernet Layer-2 as the native on-chip transport protocol, openENOC connects processors, accelerators, and peripherals in a flexible, packet-switched network. It lowers the barrier to entry when it come to building complex systems. It bridges the gap between on-chip and off-chip networking.
 
 <p align="center">
-   <img width="25%" src="https://github.com/chili-chips-ba/openenoc/openENOC-hexsticker.png">
+   <img width="25%" src="0.doc/artwork/openENOC-hexsticker.png">
 </p>
 
 
