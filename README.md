@@ -1,22 +1,30 @@
-# Scalable Ethernet-based Network-on-Chip
+# Ethernet-based Network-On-Chip
+
+By using standard Ethernet Layer-2 as the native on-chip transport protocol, **`openENOC`** connects processors, accelerators and peripherals in a flexible, frame-switched network.
+
+It lowers the barrier to entry for building complex systems.
+
+It bridges the gap between the on-chip and off-chip networking.
 
 <p align="center">
-  <img width="30%" src="0.doc/artwork/openENOC.hex.png">
+   <img width="30%" src="0.doc/artwork/openENOC.hex.png">
 </p>
 
-**openENOC** is an open-source hardware and software initiative that develops a modular and scalable Ethernet-based Network-on-Chip (NoC) architecture for FPGA SoCs and advanced MPSoC designs. By adopting standard Ethernet Layer 2 as the native on-chip transport protocol, rather than relying on traditional mesh or proprietary interconnects, openENOC enables seamless integration with existing Ethernet infrastructure and establishes a unified communication and programming model across both on-chip and off-chip systems.
+The project provides a complete, permissively-licensed stack, including RTL components, integration APIs, verification infrastructure and reference designs. It targets workloads where traditional interconnects struggle to scale, such as cryptography and edge computing.
 
-This approach allows processors, accelerators, and peripherals to be connected through a flexible, packet-switched network based on L2 switching, effectively bridging the gap between on-chip and off-chip networking while lowering the complexity of building large-scale systems.
+All results are publicly released to support reuse, strengthen the opensource ecosystem and empower developers to build future-proof, interoperable, community-driven MPSoC solutions.
 
-The concept originated from practical challenges encountered during the development of the NLnet-funded WireGuard FPGA project, where scaling cryptographic workloads such as Curve25519 and ChaCha20-Poly1305 exposed limitations of conventional interconnect architectures. In response, openENOC introduces an Ethernet-based interconnect designed to support efficient, network-oriented scaling of cryptographic processing, edge computing, and AI acceleration workloads.
+👉 [Link](https://github.com/eniokaljic/openENOC) for additional detail.
 
-openENOC aims to deliver a complete, freely licensed full-stack solution combining reusable hardware and software gateware developed in SystemVerilog and C/C++. Built in alignment with open hardware and open source software principles, the project will provide RTL components, integration APIs, verification infrastructure, and reference designs, forming a cohesive and production ready foundation.
+--------------------
 
-Its primary goal is to unlock the potential of networked reconfigurable computing by making it accessible, portable, and adaptable across a wide range of use cases. The architecture is designed with modularity at its core, enabling gradual adoption, straightforward customization, and seamless extension. This makes it suitable not only for demanding workloads such as cryptography and edge computing, where traditional interconnects struggle to scale, but also for a broad audience including academia, industry, hobbyists, and the maker community.
+### Acknowledgements
+We are grateful to **NLnet Foundation** for their sponsorship of this development activity.
 
-All results will be released openly to encourage reuse, strengthen the open hardware ecosystem, and empower developers and organizations to build interoperable, future proof, and community driven MPSoC solutions.
-
-👉 For additional detail: [https://github.com/eniokaljic/openENOC](https://github.com/eniokaljic/openENOC)
+<p align="center">
+   <img src="https://github.com/chili-chips-ba/openeye/assets/67533663/18e7db5c-8c52-406b-a58e-8860caa327c2">
+   <img width="25%" alt="NGI-Entrust-Logo" src="https://github.com/chili-chips-ba/openeye-CamSI/assets/67533663/013684f5-d530-42ab-807d-b4afd34c1522">
+</p>
 
 ----
 #### End-of-Document
