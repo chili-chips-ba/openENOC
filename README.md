@@ -1,3 +1,6 @@
+[![NLnet Foundation](https://img.shields.io/badge/funded%20by-NLnet%20Foundation-74AA00)](https://nlnet.nl/)
+[![GitHub stars](https://img.shields.io/github/stars/chili-chips-ba/openENOC?style=social)](https://github.com/chili-chips-ba/openENOC/stargazers)
+
 # Ethernet-based Network-On-Chip
 
 By using standard Ethernet Layer-2 as the native on-chip transport protocol, **`openENOC`** connects processors, accelerators and peripherals in a flexible, frame-switched network.
